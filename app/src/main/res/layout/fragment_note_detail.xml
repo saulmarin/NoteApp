@@ -11,10 +11,10 @@
         android:hint="Enter note title"
         android:background="#FAFFAA"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_margin="30dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
         android:fontFamily="cursive"
-        android:textSize="40dp"
+        android:textSize="20dp"
         android:gravity="center"
         android:textStyle="bold"
         />
@@ -26,11 +26,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/fragment_note_detail_title_text"
-        android:layout_margin="30dp"
-        android:padding="40dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
         android:gravity="top|left"
         android:fontFamily="cursive"
-        android:textSize="40dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         />
 
