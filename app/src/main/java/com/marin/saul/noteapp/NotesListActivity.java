@@ -1,7 +1,8 @@
 package com.marin.saul.noteapp;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -30,8 +31,8 @@ public class NotesListActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.menu_main_action_add_note) {
-            // TODO: ME QUEDA POR ABRIR LA PANTALLA DE LAS NOTAS
-
+            Intent i = new Intent(NotesListActivity.this, NoteDetailActivity.class);
+            startActivity(i);
             return true;
         }
 

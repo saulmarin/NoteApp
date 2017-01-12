@@ -1,7 +1,39 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.marin.saul.noteapp.NoteDetailFragment"
-    android:background="#55a">
-</FrameLayout>
+    android:background="#55a"
+    >
+
+    <EditText
+        android:id="@+id/fragment_note_detail_title_text"
+        android:hint="Enter note title"
+        android:background="#FAFFAA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/fragment_note_detail_content_text"
+        android:hint="Enter note description..."
+        android:background="#FAFFAA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_note_detail_title_text"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="top|left"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>
