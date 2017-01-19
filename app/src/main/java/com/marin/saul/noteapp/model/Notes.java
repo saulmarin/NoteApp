@@ -32,4 +32,7 @@ public class Notes implements Enumerable<Note>{
         return noteList;
     }
 
+    public Note get(int position) {
+        return noteList.get(position);
+    }
 }
